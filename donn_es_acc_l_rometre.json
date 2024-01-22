@@ -1,0 +1,186 @@
+{
+  "title": "Données accélérometre",
+  "image": null,
+  "mobileHide": false,
+  "mobileOrder": null,
+  "configuration": {
+    "widgets": {
+      "cd23fc84-8217-158b-a641-8170d00351d6": {
+        "typeFullFqn": "system.cards.timeseries_table",
+        "type": "timeseries",
+        "sizeX": 16,
+        "sizeY": 13,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "6a7706cb-3da8-3275-3d28-eac5fe7d0c25",
+              "dataKeys": [
+                {
+                  "name": "z",
+                  "label": "z",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.10316319497904525
+                },
+                {
+                  "name": "y",
+                  "label": "y",
+                  "type": "timeseries",
+                  "color": "#4caf50",
+                  "settings": {},
+                  "_hash": 0.5837347886557829
+                },
+                {
+                  "name": "x",
+                  "label": "x",
+                  "type": "timeseries",
+                  "color": "#f44336",
+                  "settings": {},
+                  "_hash": 0.6715880804298882
+                },
+                {
+                  "name": "temperature",
+                  "label": "temperature",
+                  "type": "timeseries",
+                  "color": "#ffc107",
+                  "settings": {},
+                  "_hash": 0.4845091414358862
+                },
+                {
+                  "name": "Rotation",
+                  "label": "Rotation",
+                  "type": "timeseries",
+                  "color": "#607d8b",
+                  "settings": {},
+                  "_hash": 0.4381708688131625
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "interval": 1000,
+              "timewindowMs": 60000
+            },
+            "aggregation": {
+              "type": "NONE",
+              "limit": 200
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "showTimestamp": true,
+            "displayPagination": true,
+            "defaultPageSize": 10
+          },
+          "title": "Timeseries table",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "padding": "5px 10px 5px 10px"
+          },
+          "useDashboardTimewindow": false,
+          "showLegend": false,
+          "widgetStyle": {},
+          "actions": {},
+          "showTitleIcon": false,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "displayTimewindow": true,
+          "configMode": "basic"
+        },
+        "id": "cd23fc84-8217-158b-a641-8170d00351d6"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "Données accélérometre",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "cd23fc84-8217-158b-a641-8170d00351d6": {
+                "sizeX": 8,
+                "sizeY": 6,
+                "row": 0,
+                "col": 0
+              }
+            },
+            "gridSettings": {
+              "backgroundColor": "#eeeeee",
+              "columns": 24,
+              "margin": 10,
+              "outerMargin": true,
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {
+      "6a7706cb-3da8-3275-3d28-eac5fe7d0c25": {
+        "id": "6a7706cb-3da8-3275-3d28-eac5fe7d0c25",
+        "alias": "esp32",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "dd9c70b0-b7a8-11ee-be46-bbf26874563f"
+          },
+          "resolveMultiple": false
+        }
+      }
+    },
+    "filters": {},
+    "timewindow": {
+      "displayValue": "",
+      "hideInterval": false,
+      "hideLastInterval": false,
+      "hideQuickInterval": false,
+      "hideAggregation": false,
+      "hideAggInterval": false,
+      "hideTimezone": false,
+      "selectedTab": 0,
+      "realtime": {
+        "realtimeType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "quickInterval": "CURRENT_DAY"
+      },
+      "history": {
+        "historyType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "fixedTimewindow": {
+          "startTimeMs": 1705869188247,
+          "endTimeMs": 1705955588247
+        },
+        "quickInterval": "CURRENT_DAY"
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 25000
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "externalId": null,
+  "name": "Données accélérometre"
+}

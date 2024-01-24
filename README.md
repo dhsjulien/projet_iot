@@ -27,7 +27,7 @@ Le second est relié à la masse, le GND de l'accéléromètre sur le GND de l'E
 Le troisième est relié au SCL à la broche 22 de l'accélérometre, cette broche permet de synchroniser la transmission de données entre deux appareils, elle génère une horloge qui indique le rythme auquel les bits sont lu ou écrits sur la ligne SDA  
 Le quatrième est relié au SDA à la broche 21, SDA permet de transmettre les données entre les deux appareils.  
 
-Une fois le programme pour ESP32 réalisé, on va se créer un compte sur la plateforme iot thingsboard (thingsboard.png) et créer un "device" qui va permettre de récolter les données JSON générées en temps réel que l'on on va les stocker dans un dashboard (voir dashboard.png). Parmi ces données on retrouve x, y et z ainsi que la rotation actuelle de l'appareil.
+Une fois le programme pour ESP32 réalisé, on va se créer un compte sur la plateforme iot thingsboard (thingsboard.png) et créer un "device" qui va permettre de récolter les données JSON générées en temps réel que l'on on va les stocker dans un [dashboard](Images/dashboard.png). Parmi ces données on retrouve x, y et z ainsi que la rotation actuelle de l'appareil.
 
 ## Axes d'amélioration
 

@@ -4,9 +4,7 @@ __Etudiants : LADOUCEUR Salomon, DEBLOUX Mansour, RIEHL Louise, DAHOMAIS Julien_
 
 ## Introduction
 
-Le projet vise à faire fonctionner un accéléromètre et à pouvoir récupérer les données sur la plateforme IoT ThingsBoard. Les étapes du projet sont visibles sur le schéma "image.webpp". 
-Dans un premier temps on fait le montage qui permet de relier l'ESP32 à l'accéléromètre. Ensuite on s'occupe de la partie programmation.  
-Une fois ces deux étapes faites, il faut suivre l'ordre des étapes qu'il y a sur le schéma.  
+Le projet vise à faire fonctionner un accéléromètre et à pouvoir récupérer les données sur la plateforme IoT ThingsBoard. Dans un premier temps on fait le montage qui permet de relier l'ESP32 à l'accéléromètre. Ensuite on s'occupe de la partie programmation. Une fois ces deux étapes faites, il faut suivre l'ordre des étapes qu'il y a sur [le schéma](https://raw.githubusercontent.com/dhsjulien/projet_iot/main/Images/image.webp).  
 
 __Etape 1__ : téléverser le programme écrit sur l'IDE d'Arduino vers l'ESP32.  
 __Etape 2__ : ESP32 va envoyer ses instructions à l'accéléromètre et lui demander de lui envoyer les informations qui nous intérèsse.  

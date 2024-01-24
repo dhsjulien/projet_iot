@@ -7,6 +7,7 @@ __Etudiants : LADOUCEUR Salomon, DEBLOUX Mansour, RIEHL Louise, DAHOMAIS Julien_
 Le but de ce projet est de créer une maquette autour de l'accéléromètre. De sa manière de fonctionner jusqu'à l'étendue de ses capacités, cette maquette reflète ce que nous avons appris au cours de ce projet.
 Ici, nous avons créé un outil permettant de détecter les changements dans l'orientation d'un objet (à la manière d'un smartphone, portrait / paysage), grâce aux mouvements captés par l'outil.
 Voici les différentes étapes de ce projet :
+
 __Etape 1__ : téléverser le programme écrit sur l'IDE d'Arduino vers l'ESP32.  
 __Etape 2__ : ESP32 va envoyer ses instructions à l'accéléromètre et lui demander de lui envoyer les informations qui nous intérèsse.  
 __Etape 3__ : l'Accélérometre envoie ses informations que l'on a spécifié dans le code  
